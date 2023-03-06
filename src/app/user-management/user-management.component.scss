@@ -1,0 +1,24 @@
+.box1 {
+  border: 1px solid red;
+  padding: 30px;
+
+  :hover {
+    transition: 1s;
+    transform: rotate(360);
+  }
+}
+.box2 {
+  border: 1px solid green;
+  padding: 30px;
+}
+.box3 {
+  border: 1px solid blue;
+  padding: 30px;
+}
+.box4 {
+  border: 1px solid orange;
+  padding: 30px;
+}
+.hover-box:hover {
+  //   transform: translate(-50%, -50%);
+}
